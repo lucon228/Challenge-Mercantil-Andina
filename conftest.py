@@ -28,5 +28,6 @@ def pytest_configure(config):
     config.option.htmlpath = pytest_html
     config.option.self_contained_html = True
 
+
 def pytest_html_report_title(report):
     report.title = "Mercantil Andina Challenge"
