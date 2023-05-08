@@ -38,7 +38,7 @@ Para poder ejecutar el proyecto seguir las siguientes instrucciones
     
 3- Abrir la terminal y ejecutar:
 
-  a) pytest -m ALL -v --capture=sys     | Ejecuta todas las pruebas (API, FE Mercantil Andina, FE Prevencion Seguros)
+  a) pytest -m ALL -v --capture=sys     | Ejecuta todas las pruebas (API, FE Mercantil Andina, FE Provincia Seguros)
   
   b) pytest -m API -v --capture=sys     | Ejecuta las pruebas de API
   
@@ -46,6 +46,6 @@ Para poder ejecutar el proyecto seguir las siguientes instrucciones
   
   d) pytest -m MA -v --capture=sys      | Ejecuta las pruebas de FE Mercantil Andina
   
-  e) pytest -m PREV -v --capture=sys    | Ejecuta las pruebas de FE Prevencion Seguros
+  e) pytest -m PROV -v --capture=sys    | Ejecuta las pruebas de FE Provincia Seguros
   
  4- Para ver el reporte de las pruebas hay que abrir con un browser el ultimo archivo generado en la carpeta "report\carpeta(FECHA DE EJECUCION)\reporte(ULTIMA FECHA DE EJECUCION)
