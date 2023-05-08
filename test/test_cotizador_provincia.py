@@ -6,7 +6,7 @@ from pages.hogar_prov_page import *
 
 @pytest.mark.ALL
 @pytest.mark.FRONT
-@pytest.mark.PREV
+@pytest.mark.PROV
 
 @pytest.mark.usefixtures("browser_setup")
 class TestCotizadorProvincia:
